@@ -91,6 +91,7 @@ int main(){
 		printf("\nPues elegiste la multiplicacion de matrices \n");
 		for(i=0;i<3;i++){
 			for(j=0;j<3;j++){
+				C[i][j]=0;
 				for(p=0;p<3;p++){
 				 C[i][j]=C[i][j]+(A[i][p]*B[p][j]);
 				}
